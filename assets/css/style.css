@@ -9,45 +9,50 @@
 }
 
 body {
-background-color: white;
-font-family: "PT Serif", sans-serif;
-letter-spacing: 2px;
-padding: 5px;
+    margin: 0;
+    padding: none;
+    background-color: var(--light-color);
+    font-family: "PT Serif", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto", serif;
+    letter-spacing: 2px;
 }
 
 /* header and nav bar */
 
 header {
+    padding: .5em;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: var(--light-acc);
 }
 
 #business-name {
+    font-size: 1em;
     text-decoration: none;
     color: var(--dark-color);
     text-transform: uppercase;
+    margin-left: 1em;
 }
 
 .logo {
-    width: 70px;
+    width: 4em;
     margin: 0 auto;
 }
 
 #main-nav {
-    font-size: 80%;
+    font-size: .75em;
     text-transform: uppercase;
     letter-spacing: 1px;
-    line-height: 100px;
 }
 
 #main-nav li {
     list-style: none;
     float: right;
-    margin-right: 10px;
+    margin-right: 1em;
     text-align: right;
     font-weight: bold;
 }
@@ -55,4 +60,43 @@ header {
 #main-nav a {
     text-decoration: none;
     color: var(--dark-color);
+}
+
+#main-nav a:hover {
+    border-bottom: 1.5px solid var(--dark-color);
+}
+
+.active {
+    border-bottom: 1.5px solid var(--dark-color);
+
+}
+
+/* footer and social links */
+
+footer {
+    height: 8em;
+    background-color: var(--dark-color);
+    padding-bottom: 1em;
+}
+
+.social-networks {
+    height: 5.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-networks a {
+    color: var(--light-acc);
+    font-size: 2em;
+}
+.social-networks i {
+    padding: .5em;
+}
+
+footer p {
+    text-align: center;
+    color: var(--light-acc);
+    font-family: inherit;
+    font-size: .75em;
 }
