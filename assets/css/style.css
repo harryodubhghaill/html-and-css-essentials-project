@@ -70,6 +70,94 @@ header {
     border-bottom: 1.5px solid var(--dark-color);
 
 }
+/* home page content */
+
+.info-block {
+    display: flex;
+    background-color: var(--dark-color);
+    border-radius: 3em;
+    border: .2em solid black;
+}
+
+.info-block-text {
+    color: var(--light-acc);
+    text-align: center;
+    padding: 1em 2em;
+}
+
+.info-block-text h2 {
+    border-bottom: .1em solid var(--light-acc);
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.who {
+    height: 20em;
+    margin: 2em 2em;
+}
+
+.who img {
+    height: 17em;
+    padding: 1.5em;
+    border-radius: 3em;
+}
+
+.what {
+    height: 20em;
+    margin: 2em 2em;
+}
+
+.what img {
+    height: 17em;
+    padding: 1.5em;
+    border-radius: 3em;
+}
+
+.expect-block {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--dark-color);
+    border-radius: 3em;
+    border: .2em solid black;
+    height: 20em;
+    margin: 2em 2em;
+    color: var(--light-acc);
+}
+
+.expect-block h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.expect-block div {
+    width: 50%;
+    text-align: center;
+}
+
+.expect-block a {
+    text-decoration: none;
+    color: var(--dark-acc);
+    font-size: 1em;
+}
+
+.expect-block a:hover {
+    color: var(--light-acc);
+}
+
+.expect-block h3 {
+    margin-top: 0;
+}
+
+.expect-block p {
+    padding: 0 2em;
+    font-size: .75em;
+}
+
+
 
 /* footer and social links */
 
