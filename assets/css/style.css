@@ -9,5 +9,11 @@
 }
 
 body {
-background-color: var(--light-color)
+background-color: var(--light-color);
+font-family: "PT Serif", sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", serif;
+}
+
