@@ -21,34 +21,35 @@ h1, h2, h3, h4, h5, h6 {
 
 /* header and nav bar */
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 #business-name {
     text-decoration: none;
-    padding: 5px;
     color: var(--dark-color);
-    float: left;
     text-transform: uppercase;
 }
 
-/* .logo-row {
-    width: 200px;
+.logo {
+    width: 70px;
     margin: 0 auto;
 }
-
-.logo {
-    width: 40%;
-    text-align: center;
-} */
 
 #main-nav {
     font-size: 80%;
     text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 100px;
 }
 
 #main-nav li {
     list-style: none;
     float: right;
     margin-right: 10px;
-    line-height: 100px;
+    text-align: right;
+    font-weight: bold;
 }
 
 #main-nav a {
