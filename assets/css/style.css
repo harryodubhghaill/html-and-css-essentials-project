@@ -9,8 +9,10 @@
 }
 
 body {
-background-color: var(--light-color);
+background-color: white;
 font-family: "PT Serif", sans-serif;
+letter-spacing: 2px;
+padding: 5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,11 +27,9 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--dark-color);
     float: left;
     text-transform: uppercase;
-    margin-top: none;
-    line-height: 60px;
 }
 
-.logo-row {
+/* .logo-row {
     width: 200px;
     margin: 0 auto;
 }
@@ -37,23 +37,18 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
     width: 40%;
     text-align: center;
-}
+} */
 
 #main-nav {
-    font-size: 100%;
-    
-}
-
-#main-nav ul {
-    clear: left;
-    position: top;
+    font-size: 80%;
+    text-transform: uppercase;
 }
 
 #main-nav li {
     list-style: none;
     float: right;
-    margin-right: 20px;
-    padding: 2px;
+    margin-right: 10px;
+    line-height: 100px;
 }
 
 #main-nav a {
