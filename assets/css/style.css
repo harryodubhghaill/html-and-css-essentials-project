@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@500&display=swap');
+
+:root {
+    --light-color: #e4decf;
+    --dark-color: #3f181b;
+    --main-color: #a74b8d;
+    --light-acc: #eac25d;
+    --dark-acc: #e28c76;
+}
+
+body {
+background-color: var(--light-color)
+}
