@@ -17,3 +17,46 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto", serif;
 }
 
+/* header and nav bar */
+
+#business-name {
+    text-decoration: none;
+    padding: 5px;
+    color: var(--dark-color);
+    float: left;
+    text-transform: uppercase;
+    margin-top: none;
+    line-height: 60px;
+}
+
+.logo-row {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 40%;
+    text-align: center;
+}
+
+#main-nav {
+    font-size: 100%;
+    
+}
+
+#main-nav ul {
+    clear: left;
+    position: top;
+}
+
+#main-nav li {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+    padding: 2px;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
