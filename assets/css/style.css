@@ -171,8 +171,7 @@ header {
     background-color: var(--dark-color);
     border-radius: 3em;
     border: .2em solid black;
-    margin: 2em 2em
-
+    margin: 2em 2em;
 }
 
 .course-text {
@@ -205,8 +204,22 @@ header {
     border-radius: 1.5em;
     border: 1px solid var(--light-color);
     text-align: center;
-    width: 20%;
+    width: auto;
     height: auto;
+    font-size: .75em;
+    padding: 0 1em;
+}
+
+/* tastings page */
+
+.course-box h3 {
+    width: 100%;
+    text-align: center;
+    color: var(--light-acc);
+}
+
+.course-text p {
+    padding: 1.5em;
 }
 
 
