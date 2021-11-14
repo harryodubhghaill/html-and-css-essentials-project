@@ -168,17 +168,27 @@ header {
 .course-box {
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--main-color);
-    margin: 1em 2em;
+    background-color: var(--dark-color);
+    border-radius: 3em;
+    border: .2em solid black;
+    margin: 2em 2em
+
 }
 
 .course-text {
     text-align: center;
     width: 100%;
+    color: var(--light-acc);
 }
 
 .course-text li {
     list-style: none;
+    text-align: center;
+    padding: .2em;
+}
+
+.course-text ul {
+    padding-inline-start: 0;
 }
 
 
@@ -186,8 +196,18 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 1.5em;
 }
 
+.tile {
+    color: var(--dark-color);
+    background-color: var(--dark-acc);
+    border-radius: 1.5em;
+    border: 1px solid var(--light-color);
+    text-align: center;
+    width: 20%;
+    height: auto;
+}
 
 
 /* footer and social links */
