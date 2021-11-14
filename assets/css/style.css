@@ -231,6 +231,19 @@ header {
     padding: 1.5em;
 }
 
+/* Gallery section */
+
+.gallery {
+    column-count: 3;
+    clear: both;
+    padding-bottom: 2em;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+
 
 /* footer and social links */
 
