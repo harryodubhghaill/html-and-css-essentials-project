@@ -93,17 +93,13 @@ header {
     font-size: 1.5em;
 }
 
-.who img {
+.who img, .what img {
     height: 17em;
     padding: 1.5em;
     border-radius: 3em;
 }
 
-.what img {
-    height: 17em;
-    padding: 1.5em;
-    border-radius: 3em;
-}
+
 
 .expect-block {
     display: flex;
@@ -156,6 +152,7 @@ header {
     border: .2em solid var(--dark-acc);
     border-radius: 3em;
     margin: 1em 2em;
+    padding-bottom: 1em;
 }
 
 #courses-heading {
@@ -163,6 +160,13 @@ header {
     color: var(--dark-color);
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.open-section h2 {
+    border-bottom: .1em solid var(--dark-color);
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.5em;
 }
 
 .course-box {
@@ -178,6 +182,11 @@ header {
     text-align: center;
     width: 100%;
     color: var(--light-acc);
+}
+
+.course-text h3 {
+    text-transform: uppercase;
+    font-size: 1.5em;
 }
 
 .course-text li {
