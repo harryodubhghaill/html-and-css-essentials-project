@@ -243,6 +243,59 @@ header {
     width: 100%;
 }
 
+/* Form section */
+
+.form-section {
+        background-color: var(--dark-color);
+        color: var(--light-acc);
+        margin: 2em;
+        border: 1px solid black;
+        border-radius: 3em;
+    }
+
+.contact-form {
+        text-align: center;
+        padding: 2em;
+    }
+
+.text-input {
+        background: transparent;
+        height: 2em;
+        width: 20em;
+        margin: .5em;
+        border: .2em solid var(--light-color);
+        border-radius: .2em;
+        color: var(--light-color);
+}
+
+#message {
+        background: transparent;
+        width: 20em;
+        margin: .5em;
+        border: .2em solid var(--light-color);
+        border-radius: .2em;
+        color: var(--light-color);
+}
+
+.submit-button {
+    display: block;
+    text-align: center;
+    background-color: var(--main-color);
+    color: var(--light-acc);
+    height: 3em;
+    width: 5em;
+    border-radius: .5em;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.submit-button:hover {
+    background-color: var(--light-acc);
+    color: var(--main-color);
+}
+
+/* info section  */
+
 
 
 /* footer and social links */
