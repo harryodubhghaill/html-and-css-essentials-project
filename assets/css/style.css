@@ -311,8 +311,8 @@ header {
 .submit-button {
     display: block;
     text-align: center;
-    background-color: var(--dark-color);
-    color: var(--light-acc);
+    background-color: var(--light-acc);
+    color: var(--dark-color);
     height: 3em;
     width: 5em;
     border-radius: .5em;
@@ -321,8 +321,8 @@ header {
 }
 
 .submit-button:hover {
-    background-color: var(--light-acc);
-    color: var(--dark-color);
+    background-color: var(--dark-color);
+    color: var(--light-acc);
 }
 
 /* info section  */
