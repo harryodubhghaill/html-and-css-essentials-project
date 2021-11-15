@@ -245,6 +245,12 @@ header {
 
 /* Form section */
 
+.center-text {
+    width: 100%;
+    text-align: center;
+    color: var(--dark-color);
+}
+
 .form-section {
         background-color: var(--dark-color);
         color: var(--light-acc);
@@ -296,7 +302,29 @@ header {
 
 /* info section  */
 
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    color: var(--dark-color);
+}
 
+.phone {
+    text-align: left;
+}
+
+.phone ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.address {
+    text-align: right;
+}
+
+.address p {
+    padding: .5em;
+}
 
 /* footer and social links */
 
