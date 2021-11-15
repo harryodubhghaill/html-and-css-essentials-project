@@ -60,16 +60,24 @@
             </div>
             <br>
             <h3>What can we help you with?</h3>
-            <div class="form-radio">
-              <label for="bookings">Bookings</label>
-              <input type="radio" id="bookings" name="contact_reason" value="bookings" required>
-              <label for="school">Wine School</label>
-              <input type="radio" id="school" name="contact_reason" value="school">
-              <label for="tastings">Wine Tastings</label>
-              <input type="radio" id="tastings" name="contact_reason" value="tastings">
-              <label for="other">Other</label>
-              <input type="radio" id="other" name="contact_reason" value="other">
-            </div>
+            <fieldset class="form-radio">
+              <div class="form-radio-items">
+                <label for="bookings">Bookings</label>
+                <input type="radio" id="bookings" name="contact_reason" value="bookings" required>
+              </div>
+              <div class="form-radio-items">
+                <label for="school">Wine School</label>
+                <input type="radio" id="school" name="contact_reason" value="school">
+              </div>
+              <div class="form-radio-items">
+                <label for="tastings">Wine Tastings</label>
+                <input type="radio" id="tastings" name="contact_reason" value="tastings">
+              </div>
+              <div class="form-radio-items">
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="contact_reason" value="other">
+              </div>
+            </fieldset>
             <label for="message" class="textarea-heading">How can we help you?</label> 
             <textarea id="message" name="message" rows="10" placeholder="Your Message..."></textarea>
             
