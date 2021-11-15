@@ -406,6 +406,12 @@ footer p {
     .gallery {
         column-count: 2;
     }
+
+    .address {
+        text-align: left;
+        justify-content: left;
+        padding: 0;
+    }
     
 }
 
