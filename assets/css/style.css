@@ -278,6 +278,15 @@ header {
         color: var(--light-color);
 }
 
+.textarea-heading {
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
 #message {
         background: transparent;
         width: 20em;
