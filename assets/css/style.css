@@ -87,8 +87,6 @@ header {
 }
 
 .info-block-text h2 {
-    border-bottom: .1em solid var(--light-acc);
-    display: inline-block;
     text-transform: uppercase;
     font-size: 1.5em;
 }
@@ -281,6 +279,7 @@ header {
         border: .2em solid var(--light-color);
         border-radius: .2em;
         color: var(--light-color);
+        font-family: "PT Serif", sans-serif;
 }
 
 .submit-button {
