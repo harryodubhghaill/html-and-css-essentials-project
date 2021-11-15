@@ -331,6 +331,10 @@ header {
     padding: .5em;
 }
 
+iframe {
+    width: 100%;
+}
+
 /* footer and social links */
 
 footer {
